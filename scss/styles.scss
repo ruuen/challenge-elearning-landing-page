@@ -64,6 +64,10 @@ body {
     margin: 0 auto;
   }
 
+  &__img-tablet-desktop {
+    display: none;
+  }
+
   &__img-mobile {
     position: relative;
     padding: 1.5em 2em;
