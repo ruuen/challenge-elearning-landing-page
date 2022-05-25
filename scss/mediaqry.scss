@@ -7,7 +7,9 @@
 
   .header {
     padding: 1.5em 2.5em 0 2.5em;
-    margin-bottom: -1rem;
+    margin-bottom: -2rem;
+    position: relative;
+    z-index: 10;
   }
 
   .page-container {
@@ -16,7 +18,7 @@
 
   .hero {
     display: flex;
-    padding: 2.5em 0 2.5em 2.5em;
+    padding: 2.5em 0 4.5em 2.5em;
     overflow: hidden;
     align-items: center;
 
@@ -28,19 +30,19 @@
       max-width: 32rem;
     }
 
-    &__img-mobile {
-      display: none;
-    }
-
-    &__img-tablet-desktop {
-      display: block;
-      margin-right: -19rem;
-      margin-top: -12rem;
-      margin-bottom: -3.5rem;
+    &__img-wrapper {
+      padding: 0;
+      margin-top: -5rem;
     }
 
     &__img {
       max-width: none;
+    }
+
+    &__img-text-members {
+      top: 100px;
+      right: 25px;
+      padding: 1em 1.5em;
     }
   }
 

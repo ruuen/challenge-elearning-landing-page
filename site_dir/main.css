@@ -125,10 +125,7 @@ body {
   display: block;
   margin: 0 auto;
 }
-.hero__img-tablet-desktop {
-  display: none;
-}
-.hero__img-mobile {
+.hero__img-wrapper {
   position: relative;
   padding: 1.5em 2em;
   width: max-content;
@@ -142,6 +139,7 @@ body {
   max-width: max-content;
   padding: 1em;
   border-radius: 10px;
+  user-select: none;
 }
 .hero__img-text-members {
   position: absolute;
@@ -235,7 +233,9 @@ body {
 
   .header {
     padding: 1.5em 2.5em 0 2.5em;
-    margin-bottom: -1rem;
+    margin-bottom: -2rem;
+    position: relative;
+    z-index: 10;
   }
 
   .page-container {
@@ -244,7 +244,7 @@ body {
 
   .hero {
     display: flex;
-    padding: 2.5em 0 2.5em 2.5em;
+    padding: 2.5em 0 4.5em 2.5em;
     overflow: hidden;
     align-items: center;
   }
@@ -254,17 +254,17 @@ body {
   .hero__copy {
     max-width: 32rem;
   }
-  .hero__img-mobile {
-    display: none;
-  }
-  .hero__img-tablet-desktop {
-    display: block;
-    margin-right: -19rem;
-    margin-top: -12rem;
-    margin-bottom: -3.5rem;
+  .hero__img-wrapper {
+    padding: 0;
+    margin-top: -5rem;
   }
   .hero__img {
     max-width: none;
+  }
+  .hero__img-text-members {
+    top: 100px;
+    right: 25px;
+    padding: 1em 1.5em;
   }
 
   .course-list {

@@ -27,8 +27,18 @@
           </p>
           <a href="#" class="btn hero__btn">Get Started</a>
         </div>
-        <div class="hero__img-mobile">
+        <div class="hero__img-wrapper">
           <picture>
+            <source
+              media="(min-width: 700px)"
+              type="image/webp"
+              srcset="./assets/image-hero-tablet-mr.webp 1x, ./assets/image-hero-tablet-mr@2x.webp 2x"
+            />
+            <source
+              media="(min-width: 700px)"
+              type="image/png"
+              srcset="./assets/image-hero-tablet-mr.png 1x, ./assets/image-hero-tablet-mr@2x.png 2x"
+            />
             <source
               type="image/webp"
               srcset="./assets/image-hero-mobile-mr.webp 1x, ./assets/image-hero-mobile-mr@2x.webp 2x"
@@ -47,16 +57,6 @@
             <span class="hero__img-text-heading">Course hours</span>
             <span class="hero__img-text-stat">1,451</span>
           </div>
-        </div>
-        <div class="hero__img-tablet-desktop">
-          <picture>
-            <source
-              type="image/webp"
-              srcset="./assets/image-hero-tablet.webp 1x, ./assets/image-hero-tablet@2x.webp 2x"
-            />
-            <source type="image/png" srcset="./assets/image-hero-tablet.png 1x, ./assets/image-hero-tablet@2x.png 2x" />
-            <img src="./assets/image-hero-tablet.png" alt="" class="hero__img" />
-          </picture>
         </div>
       </section>
       <ul class="course-list">
