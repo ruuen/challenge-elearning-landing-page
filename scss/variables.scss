@@ -34,6 +34,7 @@ $gradient-orangepink: linear-gradient(3deg, #f02aa6 0%, #ff6f48 100%);
 $gradient-purplepink: linear-gradient(3deg, #4851ff 0%, #f02aa6 100%);
 $gradient-whitelblue: linear-gradient(180deg, #ffffff 0%, #ffffff 80%, #f0f1ff 100%);
 $gradient-whitelblue-tablet: linear-gradient(180deg, #ffffff 0%, #ffffff 65%, #f0f1ff 100%);
+$gradient-whitelblue-desktop: linear-gradient(180deg, #ffffff 0%, #ffffff 40%, #f0f1ff 100%);
 
 // Fonts
 $font-family: "Plus Jakarta Sans", sans-serif;
@@ -45,5 +46,5 @@ $font-weight-bold: 800;
 $border-radius-curved: 10px;
 
 // Device Breakpoints
-// $breakpoint-tablet: 43.75rem;
 $breakpoint-tablet: 700px;
+$breakpoint-desktop: 1200px;

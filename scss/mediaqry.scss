@@ -48,7 +48,7 @@
 
   .course-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 3.5rem 0.75rem;
     padding: 3.5em 2.5em 6em 2.5em;
 
@@ -67,5 +67,121 @@
 
   .footer {
     padding: 2.5em;
+  }
+}
+
+@media (min-width: var.$breakpoint-desktop) {
+  body {
+    background: var.$gradient-whitelblue-desktop;
+  }
+
+  .header {
+    padding: 1.5em 10.5em 0 10.5em;
+    margin-bottom: -5.25rem;
+
+    &__logo {
+      max-width: none;
+    }
+  }
+
+  .btn {
+    font-size: 1.125rem;
+    padding: 1em 1.75em;
+  }
+
+  .hero {
+    padding: 5em 0 0 10.5em;
+
+    &__heading {
+      font-size: 3.5rem;
+      max-width: 29rem;
+      line-height: 71px;
+    }
+
+    &__copy {
+      font-size: 1.125rem;
+      max-width: 27rem;
+      padding: 1.5em 0 2.5em 0;
+    }
+
+    &__btn {
+      padding: 1.1em 1.75em 1em 1.75em;
+    }
+
+    &__img-wrapper {
+      padding-left: 3rem;
+    }
+
+    &__img-text-wrapper {
+      padding: 1em 3.5em 1em 1.5em;
+      border-radius: calc(var.$border-radius-curved + 5px);
+    }
+
+    &__img-text-members {
+      top: 280px;
+      right: 100px;
+    }
+
+    &__img-text-courses {
+      bottom: 150px;
+    }
+
+    &__img-text-heading {
+      font-size: 1rem;
+    }
+
+    &__img-text-stat {
+      font-size: 2.5rem;
+      line-height: 50px;
+    }
+  }
+
+  .course-list {
+    padding: 3.5em 10.5em 9em 10.5em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5.5rem 1.75rem;
+
+    &__header {
+      border-radius: calc(var.$border-radius-curved + 5px);
+      padding: 1.75em 1.75em 9em 1.75em;
+    }
+
+    &__heading {
+      font-size: 2rem;
+      line-height: 40px;
+    }
+
+    &__item {
+      border-radius: calc(var.$border-radius-curved + 5px);
+      display: flex;
+      flex-direction: column;
+      padding: 0 2em 2em 2em;
+    }
+
+    &__icon {
+      width: min-content;
+    }
+
+    &__name {
+      font-size: 1.5rem;
+    }
+
+    &__copy {
+      font-size: 1.125rem;
+      line-height: 28px;
+      padding: 1em 0 2em 0;
+    }
+
+    &__link {
+      margin: auto 0 0.5em 0;
+    }
+  }
+
+  .footer {
+    padding: 2em 10.5em;
+
+    &__logo {
+      max-width: none;
+    }
   }
 }
