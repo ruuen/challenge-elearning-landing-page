@@ -28,6 +28,10 @@ body {
     margin: auto auto auto 0;
     height: min-content;
   }
+
+  &__btn:hover {
+    background: var.$clr-blue;
+  }
 }
 
 .hero {
@@ -56,6 +60,10 @@ body {
     padding: 1.15em 2.5em;
     border-radius: 31.5px;
     background: var.$gradient-orangepink;
+
+    &:hover {
+      background: rgba(var.$clr-white, 0.5), var.$gradient-orangepink;
+    }
   }
 
   &__img {
