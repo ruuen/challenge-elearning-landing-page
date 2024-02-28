@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-with-scssbem-d_WFBCx8Qo)
-- Live Site URL: [Netlify](https://mbr-challenge-elearning-landing-page.pages.dev/)
+- Live Site URL: [Cloudflare Pages](https://mbr-challenge-elearning-landing-page.pages.dev/)
 
 ## What I learned
 
