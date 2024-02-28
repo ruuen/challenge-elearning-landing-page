@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-with-scssbem-d_WFBCx8Qo)
-- Live Site URL: [Netlify](https://rd-challenge-elearning-landing.netlify.app/)
+- Live Site URL: [Netlify](https://mbr-challenge-elearning-landing-page.pages.dev/)
 
 ## What I learned
 
@@ -49,5 +49,5 @@ As a result I decided to re-export the assets from Figma & build the text elemen
 
 ## Author
 
-- Frontend Mentor - [@ruuendigital](https://www.frontendmentor.io/profile/ruuendigital)
+- Frontend Mentor - [@ruuen](https://www.frontendmentor.io/profile/ruuen)
 - Twitter - [@maxruuen](https://www.twitter.com/maxruuen)
